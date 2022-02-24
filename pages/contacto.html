@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+	<link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+		<div class= "nav__Background">
+			<a href="/index.html"><img src="../img/Logo_Mesa de trabajo 1.png" alt="logo don" width="100" class="imglogo"></a>
+				<nav>
+					<ul>
+						<li><a href="/index.html">Home</a></li>
+						<li><a href="/pages/sobrenosotros.html">Nosotros</a></li>
+						<li><a href="/pages/productos.html">Productos</a></li>
+						<li><a href="/pages/contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+		</div>
+	</header>
+	<section>
+		<div class="fotoncontacto">
+			<h4 class="subtitulocontacto">Contacto</h4>
+		</div>
+	</section>
+    <section>
+		<h2 class="titulocontanto">CONTACTANOS</h2>
+	</section>
+	<div class="formulario">
+		<form action="#">
+			<label for="name">Nombre:</label>
+    		<input type="text" id="name" name="nombre">
+			<br>
+			<label for="email">Email:
+						<input type="email" name="email"><br>
+			</label>
+			<label for="observaciones"> Observaciones:<br>
+				<textarea placeholder="observaciones"></textarea>
+			</label> <br>
+			<div><h4>Ya sos Cliente?</h4>
+				<div>SI
+					<input type="radio" name="lado" value="si">
+				</div>
+				<div>NO
+					<input type="radio" name="lado" value="no">
+				</div>
+			</div>
+			<p>A que area queres contactar</p>
+			<select name="letra" id="letra"> 
+				<option value="produccion">Produccion</option>
+				<option value="admministracion">Administracion</option>
+				<option value="empaque">Empaque</option>
+				<option value="gerencia">Gerencia</option>
+			</select>
+			<br>
+			<br>
+			<div>Queres recibir info sobre nosotros?
+			<input type="checkbox" name="acepta" value="1"></div>
+			<input type="submit" value="enviar">
+			<input type="reset" value="resetear">
+		</form>
+	</div>
+	<footer class="footer">
+		<img src="../img/Logo_Mesa de trabajo 1.png" alt="logo don" width="100" class="imglogo">
+	</footer>  
+</body>
+</html>

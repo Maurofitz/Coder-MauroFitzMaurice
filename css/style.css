@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+    width: 100%;
+}
+.nav__Background {
+	background-color: #C6C6C6;;
+	padding: 20px 0;
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav__Background img {
+	padding: 20px;
+}
+.nav__Background nav ul {
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+}
+.nav__Background nav ul li {
+    margin: 0 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+a{text-decoration: none;
+}
+.footer {
+    background:  #C6C6C6;
+}
+.fotoncontacto,
+.fotonosotros,
+.fotonProductos,
+.img_body {
+    background-image:url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    font-size: 80px;
+    -webkit-text-stroke: 2px green;
+    font-family: 'Holtwood One SC', serif;
+}
+.img_body {
+    background-image:url(../img/Foto\ 9-2-19\ 12\ 12\ 34.jpg);
+  }
+.fotoncontacto{
+    background-image:url(../img/contacto.jpg);
+}
+.fotonProductos{
+    background-image:url(../img/productos.jpg);
+}
+.fotonosotros{
+    background-image:url(../img/nosotros.jpg);
+}
+.contacto_caja{
+    background-color: #C6C6C6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+.botoncontacto {
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+    height: 50px;
+    align-self: center;
+    justify-self: center;
+    width: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .botoncontacto:hover {
+    text-decoration:none;
+    color:#0000cc;
+    cursor:pointer;
+  }
+.texto__escribinos{
+    font-size: 25px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.fotosCaja{
+    margin-left: 400px;
+    margin-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #C6C6C6;
+}
+.productos__index{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    margin-top: 40px;
+}
+iframe {
+    width: 100%;
+}
+.textocontenedor{
+    display: flex;
+    margin: 0 auto;
+}
+.grid__presentacion{
+    display: grid;
+    grid-template-columns: 1fr , 1fr
+}
+
+.titulo__presentacion{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: green;
+    align-self: center;
+    justify-self: center;
+    margin-top: 50px;
+}
+.subtitulo__presentacion {
+    font-family: 'Source Sans Pro', sans-serif;
+    grid-area: 2 / 1 / 2;
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+}
+.foto_presentacion {
+    grid-area: 2 / 2 / 3;
+    align-self: center;
+    justify-self: center;
+}
+.textocontenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/fondo.jpg);
+}
+.imagen__cerramiento{
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+    border-color: beige;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 3px 3px 70px 18px
+}
+.textoindex{
+    width: 450px;
+    height: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 150px;
+}
+.info__nosotros{
+    background-image: url(../img/nosotros_fondo.jpg);
+}
+.texto_nosotros{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    padding: 0 50px;
+    height: 700px;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titulocontanto{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #e0dede;
+}
+.listaproductos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    margin-top: 40px;
+}
+.formulario {
+    padding: 150px;
+    text-align: center;
+    background-color: #e0dede;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+@media (max-width: 1400px) {
+    body {
+        font-size: 70%;
+    }
+  
+    .productos__index {
+         grid-template-columns: repeat(2, 1fr);
+    }
+    .titulo_don,
+    .subtitulocontacto,
+   .subtituloProductos,
+   .subtitulo_nosotros{
+        font-size: 60px;
+    }
+    .subtitulo_don {
+        font-size: 30px;
+    }
+    .imagen__cerramiento{
+        width:350px;
+        height: 350px;
+    }
+  
+    .texto__escribinos {
+         text-align: center;
+    }  
+  }
+    .textoindex,
+    .listaproductos {
+         font-size: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 15px;
+    }
+@media (max-width: 1015px){
+    .listaproductos {
+        grid-template-columns: repeat(1, 1fr);
+   }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 40%;
+    }
+    .productos__index,
+    .listaproductos {
+        grid-template-columns: repeat(1, 1fr);
+   }
+   .titulo_don,
+   .subtitulocontacto,
+   .subtituloProductos,
+   .subtitulo_nosotros{
+       font-size: 45px;
+   }
+   .subtitulo_don {
+       font-size: 30px;
+   }
+   .contacto_caja{
+        display: none;
+   }
+   .grid__presentacion{
+        display: none;
+   }
+   .imagen__cerramiento{
+        display: none;
+   }
+}
+@media (max-width: 580px) {
+    body {
+        font-size: 40%;
+    }
+    .productos__index,
+    .listaproductos {
+        grid-template-columns: repeat(1, 1fr);
+   }
+   .titulo_don,
+   .subtitulocontacto,
+   .subtituloProductos,
+   .subtitulo_nosotros{
+       font-size: 35px;
+       -webkit-text-stroke: 1px green;
+   }
+   .subtitulo_don {
+       font-size: 25px;
+       -webkit-text-stroke: 1px green;
+   }
+
+}
