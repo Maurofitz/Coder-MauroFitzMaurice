@@ -226,7 +226,10 @@ iframe {
     background-color: #e0dede;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.foto1,
+.foto1:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    overflow:hidden;
+}
 .foto2:hover{
      -webkit-transform:scale(1.3);transform:scale(1.3);
      overflow:hidden;
