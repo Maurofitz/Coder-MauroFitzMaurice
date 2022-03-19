@@ -12,7 +12,7 @@
 body {
   overflow-x: hidden;
   width: 100%;
-  color: #000000;
+  color: var(--primary);
 }
 
 .navbar .navbar-nav .nav-link {
@@ -30,6 +30,10 @@ body {
   font-size: 80px;
   -webkit-text-stroke: 2px var(--secondary);
   font-family: "Oswald", sans-serif;
+}
+
+.titulo_grande {
+  font-size: 20px;
 }
 
 .d-inline-block,
@@ -83,6 +87,18 @@ p {
 }
 .acordeon .accordion-button:hover {
   color: #009961;
+}
+
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: var(--light);
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=style.css.map */
